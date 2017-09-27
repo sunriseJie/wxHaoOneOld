@@ -1,0 +1,74 @@
+[ 2017-07-18T22:43:24+08:00 ] 192.168.199.122 192.168.199.20 GET /banner/123
+[ log ] sunrise.com:90/banner/123 [运行时间：0.075049s][吞吐率：13.32req/s] [内存消耗：1,886.34kb] [文件加载：45]
+[ info ] [ LANG ] /volume1/web/tigershop.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-by' => '192.168.199.122',
+  'x-real-ip' => '192.168.199.20',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '90',
+  'host' => 'sunrise.com:90',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=8118755328; lang=zh-CN; i_like_gogits=92a4e1ede226aa5d',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /volume1/web/tigershop.com/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0][/volume1/web/tigershop.com/application/api/controller/v1/Banner.php:24]
+[ error ] 
+
+---------------------------------------------------------------
+[ 2017-07-18T22:43:52+08:00 ] 192.168.199.122 192.168.199.20 GET /banner/123
+[ log ] sunrise.com:90/banner/123 [运行时间：0.075716s][吞吐率：13.21req/s] [内存消耗：1,886.39kb] [文件加载：45]
+[ info ] [ LANG ] /volume1/web/tigershop.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-by' => '192.168.199.122',
+  'x-real-ip' => '192.168.199.20',
+  'x-forwarded-proto' => 'http',
+  'x-forwarded-port' => '90',
+  'host' => 'sunrise.com:90',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'pgv_pvi=8118755328; lang=zh-CN; i_like_gogits=92a4e1ede226aa5d',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ /volume1/web/tigershop.com/application/api/controller/v1/Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]内部错误[/volume1/web/tigershop.com/application/api/controller/v1/Banner.php:24]
+[ error ] 内部错误
+
+---------------------------------------------------------------
